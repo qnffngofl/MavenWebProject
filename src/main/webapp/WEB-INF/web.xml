@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>calc</servlet-name>
+  	<display-name>calc</display-name>
+  	<description></description>
+  	<servlet-class>kr.co.gudi.calc</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>calc</servlet-name>
+  	<url-pattern>/calc</url-pattern>
+  </servlet-mapping>
 </web-app>
